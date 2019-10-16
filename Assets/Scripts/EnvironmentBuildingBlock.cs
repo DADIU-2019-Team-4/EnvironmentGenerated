@@ -5,8 +5,8 @@ using UnityEngine;
 public class EnvironmentBuildingBlock : MonoBehaviour
 {
     private Vector3 originalPosition;
-    private int BuildSpeed = 33;
-    private static int DistanceToTrigger = 4;
+    private int BuildSpeed = 10;
+    private static int DistanceToTrigger = 7;
     private GameObject player;
     private bool wasTriggered = false;
     private bool isMoving = false;
@@ -15,6 +15,8 @@ public class EnvironmentBuildingBlock : MonoBehaviour
     private Vector3 spawnDirection;
 
     private Vector3 moveDirection;
+
+    public bool SpawnFromBottom;
 
     // Start is called before the first frame update
     void Start()
@@ -52,7 +54,9 @@ public class EnvironmentBuildingBlock : MonoBehaviour
                 break;
 
         }
-        //spawnDirection = Vector3.down;
+
+        if (SpawnFromBottom)
+            spawnDirection = Vector3.down;
 
 
         moveDirection = -spawnDirection;
@@ -76,7 +80,9 @@ public class EnvironmentBuildingBlock : MonoBehaviour
             {
                 isMoving = false;
                 transform.position = originalPosition;
-                GetComponent<BoxCollider>().enabled = true;
+
+                if (GetComponent<BoxCollider>() != null)
+                    GetComponent<BoxCollider>().enabled = true;
             }
         }
 
