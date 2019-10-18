@@ -16,6 +16,10 @@ public class CameraControl : MonoBehaviour
     public GameObject lighting;
     private Vector3 lightingOffset;
 
+    private float cameraRot = 1f;
+    private float baseDistance;
+    private float MouseXMultiplier = 2f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +29,8 @@ public class CameraControl : MonoBehaviour
 
         if (lighting != null)
             lightingOffset = lighting.transform.position - player.transform.position;
+
+        baseDistance = -transform.position.z;
     }
 
     // Update is called once per frame
@@ -33,14 +39,29 @@ public class CameraControl : MonoBehaviour
 
     }
 
+
+    private void FixedUpdate()
+    {
+
+    }
+
     private void LateUpdate()
     {
-        transform.position = player.transform.position + cameraOffset;
+        //transform.position = player.transform.position + cameraOffset;
 
-        float velocity = playerRigidbody.velocity.magnitude * XRotationMultiplier;
-        transform.eulerAngles = new Vector3(originalRotation.x - velocity, originalRotation.y, originalRotation.z);
+        //float velocity = playerRigidbody.velocity.magnitude * XRotationMultiplier;
+        //transform.eulerAngles = new Vector3(originalRotation.x - velocity, originalRotation.y, originalRotation.z);
+
+        Vector3 inputCameraRotation = cameraRot * (new Vector3(-Input.GetAxis("Mouse Y"), Input.GetAxis("Mouse X") * MouseXMultiplier, 0));
+        transform.eulerAngles += inputCameraRotation;
+        transform.position = player.transform.position +
+            new Vector3(
+            Mathf.Cos(transform.eulerAngles.x * Mathf.Deg2Rad) * -Mathf.Sin(transform.eulerAngles.y * Mathf.Deg2Rad) * baseDistance,
+            Mathf.Sin(transform.eulerAngles.x * Mathf.Deg2Rad) * baseDistance,
+            Mathf.Cos(transform.eulerAngles.x * Mathf.Deg2Rad) * -Mathf.Cos(transform.eulerAngles.y * Mathf.Deg2Rad) * baseDistance);
 
         if (lighting != null)
             lighting.transform.position = player.transform.position + lightingOffset;
+
     }
 }

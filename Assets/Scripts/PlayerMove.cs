@@ -13,12 +13,15 @@ public class PlayerMove : MonoBehaviour
     private Vector3 previousFramePosition;
     private Life Life;
 
+    private Transform CameraTransform;
+
     // Start is called before the first frame update
     void Start()
     {
         rg = GetComponent<Rigidbody>();
         SpawnPosition = rg.position;
         Life = gameObject.GetComponent<Life>();
+        CameraTransform = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Transform>();
     }
 
     // Update is called once per frame
@@ -37,7 +40,10 @@ public class PlayerMove : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Vector3 force = new Vector3(Input.GetAxis("Horizontal"), 0.0f, Input.GetAxis("Vertical"));
+        Vector3 force = new Vector3(
+            Mathf.Sin(CameraTransform.eulerAngles.y * Mathf.Deg2Rad) * Input.GetAxis("Vertical") + Mathf.Cos(CameraTransform.eulerAngles.y * Mathf.Deg2Rad) * Input.GetAxis("Horizontal"),
+            0.0f,
+            Mathf.Cos(CameraTransform.eulerAngles.y * Mathf.Deg2Rad) * Input.GetAxis("Vertical") - Mathf.Sin(CameraTransform.eulerAngles.y * Mathf.Deg2Rad) * Input.GetAxis("Horizontal"));
         rg.AddForce(moveMultiplier * force);
     }
 
