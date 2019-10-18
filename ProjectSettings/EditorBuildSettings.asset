@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/UnderwaterTest.unity
-    guid: 5e70561a0b1704e40a17414b49cdefac
+    path: Assets/Scenes/Benchmark Particles.unity
+    guid: 1429c9fdaa046bb4a8a8203a79adc6c3
   m_configObjects: {}

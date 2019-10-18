@@ -1,0 +1,6151 @@
+fileFormatVersion: 2
+guid: 2f05d0a235f181d46b91ba9cadf92731
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1166795929128439012
+    second: flamezz_0
+  - first:
+      213: 6851587806262830389
+    second: flamezz_1
+  - first:
+      213: -2620273183448869997
+    second: flamezz_2
+  - first:
+      213: -3372060967507258242
+    second: flamezz_3
+  - first:
+      213: 6309808575943409887
+    second: flamezz_4
+  - first:
+      213: 8238070436180322201
+    second: flamezz_5
+  - first:
+      213: -4513363451350102521
+    second: flamezz_6
+  - first:
+      213: -831075178695776155
+    second: flamezz_7
+  - first:
+      213: 2077807894265419599
+    second: flamezz_8
+  - first:
+      213: 3685561067439944057
+    second: flamezz_9
+  - first:
+      213: 574980459378156579
+    second: flamezz_10
+  - first:
+      213: 7443327235720089623
+    second: flamezz_11
+  - first:
+      213: -626924334821055410
+    second: flamezz_12
+  - first:
+      213: -8659809944053732754
+    second: flamezz_13
+  - first:
+      213: 7865177842669811662
+    second: flamezz_14
+  - first:
+      213: -5694562025041010179
+    second: flamezz_15
+  - first:
+      213: 1158651291836271729
+    second: flamezz_16
+  - first:
+      213: -7205669088546331470
+    second: flamezz_17
+  - first:
+      213: -4797124164814961745
+    second: flamezz_18
+  - first:
+      213: -2208898181226158032
+    second: flamezz_19
+  - first:
+      213: -5567626169961317190
+    second: flamezz_20
+  - first:
+      213: 3476744671781960887
+    second: flamezz_21
+  - first:
+      213: 3094254540421907154
+    second: flamezz_22
+  - first:
+      213: 1855068307812502045
+    second: flamezz_23
+  - first:
+      213: 9027319386253487940
+    second: flamezz_24
+  - first:
+      213: -2288550373267403123
+    second: flamezz_25
+  - first:
+      213: 8833947615740180147
+    second: flamezz_26
+  - first:
+      213: 3215309119984601236
+    second: flamezz_27
+  - first:
+      213: 859415613880179504
+    second: flamezz_28
+  - first:
+      213: -3016942919967924863
+    second: flamezz_29
+  - first:
+      213: 5516584715927750248
+    second: flamezz_30
+  - first:
+      213: 512936707867750925
+    second: flamezz_31
+  - first:
+      213: -7964133485109551560
+    second: flamezz_32
+  - first:
+      213: 4196796704847465265
+    second: flamezz_33
+  - first:
+      213: -6397092090419005161
+    second: flamezz_34
+  - first:
+      213: 7959153462511218459
+    second: flamezz_35
+  - first:
+      213: -7938784645091384311
+    second: flamezz_36
+  - first:
+      213: -6499999778975963725
+    second: flamezz_37
+  - first:
+      213: 4329879421606044092
+    second: flamezz_38
+  - first:
+      213: -2303832878758668881
+    second: flamezz_39
+  - first:
+      213: 4101726919915585452
+    second: flamezz_40
+  - first:
+      213: 4739519663178548982
+    second: flamezz_41
+  - first:
+      213: -1332766896394296617
+    second: flamezz_42
+  - first:
+      213: 2912106367556591431
+    second: flamezz_43
+  - first:
+      213: -1128780353761101951
+    second: flamezz_44
+  - first:
+      213: -742071426514428430
+    second: flamezz_45
+  - first:
+      213: 8662527055752910441
+    second: flamezz_46
+  - first:
+      213: 783515644530154718
+    second: flamezz_47
+  - first:
+      213: -2852483216976859996
+    second: flamezz_48
+  - first:
+      213: 6833644193023564356
+    second: flamezz_49
+  - first:
+      213: 828803855590013975
+    second: flamezz_50
+  - first:
+      213: -3601740558184815356
+    second: flamezz_51
+  - first:
+      213: -4225559347195877017
+    second: flamezz_52
+  - first:
+      213: -7578516257580606419
+    second: flamezz_53
+  - first:
+      213: -1765701797386632357
+    second: flamezz_54
+  - first:
+      213: -6390663417845839245
+    second: flamezz_55
+  - first:
+      213: -2187561650711658485
+    second: flamezz_56
+  - first:
+      213: 2951822047692748282
+    second: flamezz_57
+  - first:
+      213: 4611717352362557622
+    second: flamezz_58
+  - first:
+      213: -5374181881249103017
+    second: flamezz_59
+  - first:
+      213: -1824697523514651687
+    second: flamezz_60
+  - first:
+      213: -7165386641281647868
+    second: flamezz_61
+  - first:
+      213: -2666353428022138538
+    second: flamezz_62
+  - first:
+      213: -1739517753143733444
+    second: flamezz_63
+  - first:
+      213: -1202175983306900757
+    second: flamezz_64
+  - first:
+      213: 703826195327117906
+    second: flamezz_65
+  - first:
+      213: -1647407855925403767
+    second: flamezz_66
+  - first:
+      213: -9202066051595242841
+    second: flamezz_67
+  - first:
+      213: -2416204147759923113
+    second: flamezz_68
+  - first:
+      213: -5323364974412239083
+    second: flamezz_69
+  - first:
+      213: 5725087068646363685
+    second: flamezz_70
+  - first:
+      213: 4099640984102303065
+    second: flamezz_71
+  - first:
+      213: 4318393157636581837
+    second: flamezz_72
+  - first:
+      213: -5962628777908680055
+    second: flamezz_73
+  - first:
+      213: 7500835052243431975
+    second: flamezz_74
+  - first:
+      213: -7538628435391272869
+    second: flamezz_75
+  - first:
+      213: 3344980112335836002
+    second: flamezz_76
+  - first:
+      213: 9056887595499686902
+    second: flamezz_77
+  - first:
+      213: -7196489625815673925
+    second: flamezz_78
+  - first:
+      213: -3398435918416542908
+    second: flamezz_79
+  - first:
+      213: -8120340351187111324
+    second: flamezz_80
+  - first:
+      213: -2272858391749855177
+    second: flamezz_81
+  - first:
+      213: 1894889406215758869
+    second: flamezz_82
+  - first:
+      213: -5935519333471390691
+    second: flamezz_83
+  - first:
+      213: 6871388588987801754
+    second: flamezz_84
+  - first:
+      213: -6925101064523971921
+    second: flamezz_85
+  - first:
+      213: -9146341582762669000
+    second: flamezz_86
+  - first:
+      213: 3046810984897084100
+    second: flamezz_87
+  - first:
+      213: 8171641552919858160
+    second: flamezz_88
+  - first:
+      213: 2691896460994036537
+    second: flamezz_89
+  - first:
+      213: -4096345047839215760
+    second: flamezz_90
+  - first:
+      213: 764877627023054056
+    second: flamezz_91
+  - first:
+      213: -5880445873725549493
+    second: flamezz_92
+  - first:
+      213: 3875728841008211138
+    second: flamezz_93
+  - first:
+      213: -7049879910766562019
+    second: flamezz_94
+  - first:
+      213: -1240244359831282426
+    second: flamezz_95
+  - first:
+      213: -3164006850726633800
+    second: flamezz_96
+  - first:
+      213: -5272967040919032389
+    second: flamezz_97
+  - first:
+      213: 939151493154018565
+    second: flamezz_98
+  - first:
+      213: 3972692612548282776
+    second: flamezz_99
+  - first:
+      213: 3649689314537212840
+    second: flamezz_100
+  - first:
+      213: -1970245217767576034
+    second: flamezz_101
+  - first:
+      213: 555628348484430882
+    second: flamezz_102
+  - first:
+      213: 7200194896960439423
+    second: flamezz_103
+  - first:
+      213: -6843403962234244998
+    second: flamezz_104
+  - first:
+      213: -5190769707595702865
+    second: flamezz_105
+  - first:
+      213: -472829629164517997
+    second: flamezz_106
+  - first:
+      213: 3483167026084803906
+    second: flamezz_107
+  - first:
+      213: 508912712833172170
+    second: flamezz_108
+  - first:
+      213: -1437817116192300965
+    second: flamezz_109
+  - first:
+      213: 2277401516462383500
+    second: flamezz_110
+  - first:
+      213: 7151493021806035204
+    second: flamezz_111
+  - first:
+      213: 2781593580497399096
+    second: flamezz_112
+  - first:
+      213: 2917552922030535637
+    second: flamezz_113
+  - first:
+      213: 8581167184197181671
+    second: flamezz_114
+  - first:
+      213: 8798840339980483377
+    second: flamezz_115
+  - first:
+      213: -5029324919965806072
+    second: flamezz_116
+  - first:
+      213: 7309048021634415703
+    second: flamezz_117
+  - first:
+      213: 8515038769834803464
+    second: flamezz_118
+  - first:
+      213: -6616049042584020583
+    second: flamezz_119
+  - first:
+      213: -4772885125297196448
+    second: flamezz_120
+  - first:
+      213: 3786343992588230577
+    second: flamezz_121
+  - first:
+      213: -2480688623728442719
+    second: flamezz_122
+  - first:
+      213: -2359884749072890903
+    second: flamezz_123
+  - first:
+      213: -1384062269479016287
+    second: flamezz_124
+  - first:
+      213: 20373780202459153
+    second: flamezz_125
+  - first:
+      213: 6588729273773501596
+    second: flamezz_126
+  - first:
+      213: -2003467087483747418
+    second: flamezz_127
+  - first:
+      213: -2809866121108336522
+    second: flamezz_128
+  - first:
+      213: -5509730252529028367
+    second: flamezz_129
+  - first:
+      213: -2644033946752039336
+    second: flamezz_130
+  - first:
+      213: -7727688605433312021
+    second: flamezz_131
+  - first:
+      213: -1040396021356060946
+    second: flamezz_132
+  - first:
+      213: -950431502081738806
+    second: flamezz_133
+  - first:
+      213: 3534272129708683715
+    second: flamezz_134
+  - first:
+      213: 6155965307157028757
+    second: flamezz_135
+  - first:
+      213: -5494796307636283712
+    second: flamezz_136
+  - first:
+      213: 67216786359530376
+    second: flamezz_137
+  - first:
+      213: -8115336749953566387
+    second: flamezz_138
+  - first:
+      213: -8145541176861745197
+    second: flamezz_139
+  - first:
+      213: -3568175048541891598
+    second: flamezz_140
+  - first:
+      213: 6155241358672961176
+    second: flamezz_141
+  - first:
+      213: 8066399009199033956
+    second: flamezz_142
+  - first:
+      213: 6411641508054484989
+    second: flamezz_143
+  - first:
+      213: 7223470876403380759
+    second: flamezz_144
+  - first:
+      213: -3384024792264991635
+    second: flamezz_145
+  - first:
+      213: -6549034563110113537
+    second: flamezz_146
+  - first:
+      213: -3471948083996072605
+    second: flamezz_147
+  - first:
+      213: 3144742558699383317
+    second: flamezz_148
+  - first:
+      213: 5580513695312657992
+    second: flamezz_149
+  - first:
+      213: 7096243859370251381
+    second: flamezz_150
+  - first:
+      213: 6079934655880372605
+    second: flamezz_151
+  - first:
+      213: 8299740002292832357
+    second: flamezz_152
+  - first:
+      213: 7840382599032162762
+    second: flamezz_153
+  - first:
+      213: 6874354385266535586
+    second: flamezz_154
+  - first:
+      213: -2432432806837460992
+    second: flamezz_155
+  - first:
+      213: 8599047393169779170
+    second: flamezz_156
+  - first:
+      213: 5917326382364501373
+    second: flamezz_157
+  - first:
+      213: -6152124912007584109
+    second: flamezz_158
+  - first:
+      213: 8386845252125164552
+    second: flamezz_159
+  - first:
+      213: -7166529325355519847
+    second: flamezz_160
+  - first:
+      213: 300750342974715744
+    second: flamezz_161
+  - first:
+      213: -6873551164627567497
+    second: flamezz_162
+  - first:
+      213: -731633371797711547
+    second: flamezz_163
+  - first:
+      213: 8917520039994498523
+    second: flamezz_164
+  - first:
+      213: 5397359421826714367
+    second: flamezz_165
+  - first:
+      213: -3586406987926830600
+    second: flamezz_166
+  - first:
+      213: 6541588596632135946
+    second: flamezz_167
+  - first:
+      213: 1625598486330863586
+    second: flamezz_168
+  - first:
+      213: 4021731184243154893
+    second: flamezz_169
+  - first:
+      213: 409424574332730975
+    second: flamezz_170
+  - first:
+      213: -4067881699313693727
+    second: flamezz_171
+  - first:
+      213: -8054275493412690474
+    second: flamezz_172
+  - first:
+      213: -8180859157238634233
+    second: flamezz_173
+  - first:
+      213: -5912169683541344310
+    second: flamezz_174
+  - first:
+      213: 5287481571521969529
+    second: flamezz_175
+  - first:
+      213: 7246117688979876955
+    second: flamezz_176
+  - first:
+      213: -4635247165568460037
+    second: flamezz_177
+  - first:
+      213: 5094308111138371216
+    second: flamezz_178
+  - first:
+      213: -2894414155483304355
+    second: flamezz_179
+  - first:
+      213: 2455489705706615571
+    second: flamezz_180
+  - first:
+      213: -3614905589201831533
+    second: flamezz_181
+  - first:
+      213: 4554469043465780150
+    second: flamezz_182
+  - first:
+      213: 2908308910898340317
+    second: flamezz_183
+  - first:
+      213: 4427259591673680062
+    second: flamezz_184
+  - first:
+      213: -3485275065854828650
+    second: flamezz_185
+  - first:
+      213: 2032148662086385106
+    second: flamezz_186
+  - first:
+      213: -5067397947257042699
+    second: flamezz_187
+  - first:
+      213: 1198915541626367178
+    second: flamezz_188
+  - first:
+      213: 5506305205140274079
+    second: flamezz_189
+  - first:
+      213: -8119928318590292833
+    second: flamezz_190
+  - first:
+      213: 6074277843803884679
+    second: flamezz_191
+  - first:
+      213: 2741262200402251407
+    second: flamezz_192
+  - first:
+      213: 5777315252789890171
+    second: flamezz_193
+  - first:
+      213: -3755751802424949065
+    second: flamezz_194
+  - first:
+      213: -878799537584925272
+    second: flamezz_195
+  - first:
+      213: -3689604478279652302
+    second: flamezz_196
+  - first:
+      213: 568291782552132136
+    second: flamezz_197
+  - first:
+      213: 2029352420548438139
+    second: flamezz_198
+  - first:
+      213: 3344412431761975961
+    second: flamezz_199
+  - first:
+      213: 2223577401839204374
+    second: flamezz_200
+  - first:
+      213: 6261851887187585948
+    second: flamezz_201
+  - first:
+      213: -403508245895387097
+    second: flamezz_202
+  - first:
+      213: 5696926004461056248
+    second: flamezz_203
+  - first:
+      213: 1213014995497564414
+    second: flamezz_204
+  - first:
+      213: -3205056711823199452
+    second: flamezz_205
+  - first:
+      213: -8050584570843113612
+    second: flamezz_206
+  - first:
+      213: -7629129641604689896
+    second: flamezz_207
+  - first:
+      213: -7575669871992680279
+    second: flamezz_208
+  - first:
+      213: -6597911463663737364
+    second: flamezz_209
+  - first:
+      213: -7152984579078390965
+    second: flamezz_210
+  - first:
+      213: -360195775382476189
+    second: flamezz_211
+  - first:
+      213: -4336436807784773971
+    second: flamezz_212
+  - first:
+      213: 5829594015847020533
+    second: flamezz_213
+  - first:
+      213: 8037487140401733350
+    second: flamezz_214
+  - first:
+      213: -5454300459560412022
+    second: flamezz_215
+  - first:
+      213: 7613728135808965139
+    second: flamezz_216
+  - first:
+      213: -6942001114368847575
+    second: flamezz_217
+  - first:
+      213: 2665739024676853746
+    second: flamezz_218
+  - first:
+      213: 6157732880539562809
+    second: flamezz_219
+  - first:
+      213: 5513062683545719763
+    second: flamezz_220
+  - first:
+      213: 5671572513420350336
+    second: flamezz_221
+  - first:
+      213: -529183313642829638
+    second: flamezz_222
+  - first:
+      213: 21766483858169001
+    second: flamezz_223
+  - first:
+      213: -7419179252130721406
+    second: flamezz_224
+  - first:
+      213: 6414330295215237108
+    second: flamezz_225
+  - first:
+      213: -7675958566900835446
+    second: flamezz_226
+  - first:
+      213: -9124170019462595741
+    second: flamezz_227
+  - first:
+      213: -5081841536188560426
+    second: flamezz_228
+  - first:
+      213: -3922497733209149276
+    second: flamezz_229
+  - first:
+      213: 4053109109687588590
+    second: flamezz_230
+  - first:
+      213: 5827479839701401049
+    second: flamezz_231
+  - first:
+      213: 692066679542803790
+    second: flamezz_232
+  - first:
+      213: 8111780717636179965
+    second: flamezz_233
+  - first:
+      213: 4729860051397346738
+    second: flamezz_234
+  - first:
+      213: 7877657868394019244
+    second: flamezz_235
+  - first:
+      213: -6216631431276293051
+    second: flamezz_236
+  - first:
+      213: -3789793023469992186
+    second: flamezz_237
+  - first:
+      213: -3970886796934209222
+    second: flamezz_238
+  - first:
+      213: -4654464294797040988
+    second: flamezz_239
+  - first:
+      213: 5168847158412147415
+    second: flamezz_240
+  - first:
+      213: 5126082317984868922
+    second: flamezz_241
+  - first:
+      213: 6560032926157851488
+    second: flamezz_242
+  - first:
+      213: -1483923376786771454
+    second: flamezz_243
+  - first:
+      213: 8692595269624417027
+    second: flamezz_244
+  - first:
+      213: -3056793017855148469
+    second: flamezz_245
+  - first:
+      213: -4145373617001856614
+    second: flamezz_246
+  - first:
+      213: 2559288174646773752
+    second: flamezz_247
+  - first:
+      213: -3326991934329162030
+    second: flamezz_248
+  - first:
+      213: -7509797676500590405
+    second: flamezz_249
+  - first:
+      213: -103879700469179922
+    second: flamezz_250
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 500
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: flamezz_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a22f90123681747b3e5c22bfd2d8df
+      internalID: 1166795929128439012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_1
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 12000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd52ce1c98c65b439ebf8fa36fdac7d
+      internalID: 6851587806262830389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_2
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 12000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c549a53bc6991841b8981c58665f813
+      internalID: -2620273183448869997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_3
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 12000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba64baa29c343e4cae0939b1a30196d
+      internalID: -3372060967507258242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_4
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 12000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3037093b48711f74cb4d9eeba94f574b
+      internalID: 6309808575943409887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_5
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 12000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c20ae1f8e42e2543bd746442a315538
+      internalID: 8238070436180322201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_6
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 12000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8319fde31e63c154bb61ebc257a32d9b
+      internalID: -4513363451350102521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_7
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 12000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c679ff5b57c4041ad99bffc1b37568
+      internalID: -831075178695776155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_8
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 12000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44047b53ddfdf054e812396e912a29f9
+      internalID: 2077807894265419599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_9
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 12000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad41ecb5f0e2ed74bab245fdade03de4
+      internalID: 3685561067439944057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c6a05042946d1544ade46ab9ffffa6e
+      internalID: 574980459378156579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_11
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 11500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7600b41d4057a644bb07db9077b331cb
+      internalID: 7443327235720089623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_12
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 11500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4131f743832fbf9479840b2ac0cd65d4
+      internalID: -626924334821055410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_13
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 11500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a7b1d527ad86f4e909b8c497380bca
+      internalID: -8659809944053732754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_14
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 11500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 431ea6d30a0cc404b848f2032642e838
+      internalID: 7865177842669811662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_15
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 11500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9abf53d1d98cfec4f95a464d12d36f98
+      internalID: -5694562025041010179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_16
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 11500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e7ea342bc7ccf48af6aa8f27a00dad
+      internalID: 1158651291836271729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_17
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 11500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d0ab31ab05f4b4ab2828c0d5cc4cc0
+      internalID: -7205669088546331470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_18
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 11500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c9afe3363baa74fa0bd703eba059f2
+      internalID: -4797124164814961745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_19
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 11500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa8cb18d79c1d9468d43c6b78ec3c39
+      internalID: -2208898181226158032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3129c2dcb6b88e43a07e71570e124b5
+      internalID: -5567626169961317190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_21
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 11000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca54bed45dc1e545a7d45bf74d0b0fc
+      internalID: 3476744671781960887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_22
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 11000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953e29aab0bed534b9a8c618b4972e7f
+      internalID: 3094254540421907154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_23
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 11000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98fd540f7740fa469056615d67662a6
+      internalID: 1855068307812502045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_24
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 11000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4b5466511aad748a236199f385ceaf
+      internalID: 9027319386253487940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_25
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 11000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccad215bee6c9d94eb2566fb4de161ec
+      internalID: -2288550373267403123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_26
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 11000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d08abebbf3815540bed180bc2791c33
+      internalID: 8833947615740180147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_27
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 11000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdfe61a37cab3b041b4d55c7a604a0c2
+      internalID: 3215309119984601236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_28
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 11000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32bfe4c514691f24e887fc5cc1ff4c4f
+      internalID: 859415613880179504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_29
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 11000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b762e4f6bae9e4a8dfadc64e709984
+      internalID: -3016942919967924863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a456da8d38e5e144fab5606e51193bbe
+      internalID: 5516584715927750248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_31
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 10500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4e72a7ed14d2a45a64bdcc62cad834
+      internalID: 512936707867750925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_32
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 10500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dbe0472becae6b49882816fbac07617
+      internalID: -7964133485109551560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_33
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 10500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1ba9ab7fe4847448c2e1524501c395
+      internalID: 4196796704847465265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_34
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 10500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 792ba435389741e4fb9bbe4dc2092307
+      internalID: -6397092090419005161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_35
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 10500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89daea59d4bbd8c43a6185f25e12ff33
+      internalID: 7959153462511218459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_36
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 10500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52655654afa8a014397b74a2a9e5b3e8
+      internalID: -7938784645091384311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_37
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 10500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b03ab48efdb48d4f80d94750ea07143
+      internalID: -6499999778975963725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_38
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 10500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a2fff3a4edfbc4fbc7bcec1fee5bd5
+      internalID: 4329879421606044092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_39
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 10500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8531d5a3b2649246af159e061ae52e4
+      internalID: -2303832878758668881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 684e0bfae089e97448ee453063f168b4
+      internalID: 4101726919915585452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_41
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 10000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e89b138cf1bf14e9fdc0d80554924c
+      internalID: 4739519663178548982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_42
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 10000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4db07d3b0a813040947b19e7da92b69
+      internalID: -1332766896394296617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_43
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 10000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4062845fa278f4e429225b1a09cf5409
+      internalID: 2912106367556591431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_44
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 10000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 060e20a1e6ac3764385445f72ed610ac
+      internalID: -1128780353761101951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_45
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 10000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d891202554b2a6648b043956e8706382
+      internalID: -742071426514428430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_46
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 10000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad7a631265fe36f429fc8256ea288c68
+      internalID: 8662527055752910441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_47
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 10000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e0ea4b0613acc4cad5401bc980086a
+      internalID: 783515644530154718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_48
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 10000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8546cd2cc3540304bb23dfd986600822
+      internalID: -2852483216976859996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_49
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 10000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b3e6a3a988694458373bc5356bac00
+      internalID: 6833644193023564356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2afc873e4b4858e4d95677bb362bcc14
+      internalID: 828803855590013975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_51
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 9500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a277c1d399e3744cb97ad5b53a40f07
+      internalID: -3601740558184815356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_52
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 9500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc83cefe55fc1c64cae7b925ed9455c1
+      internalID: -4225559347195877017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_53
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 9500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e104003520a76c469523d9fdbeefa5b
+      internalID: -7578516257580606419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_54
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 9500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9084aea5504989e42a1dfa12e6e20935
+      internalID: -1765701797386632357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_55
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 9500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620fbf495ca4319418eb30e9685d4d8c
+      internalID: -6390663417845839245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_56
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 9500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec33858f70fb7c64ba94cc87d0460d34
+      internalID: -2187561650711658485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_57
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 9500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f20d78e84e938948b453ac8a3dd7e39
+      internalID: 2951822047692748282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_58
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 9500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f0b93e43c821e4ab7f03f858ee31c0
+      internalID: 4611717352362557622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_59
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 9500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f2a0eef798c844aa95312ba1af7e08
+      internalID: -5374181881249103017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae64296586dcb254491c8da4e536e02e
+      internalID: -1824697523514651687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_61
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 9000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d66826cfaf96ed43afbb0a9b228ce20
+      internalID: -7165386641281647868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_62
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 9000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5367cd95d1022c14b86cfa17f3b28a7c
+      internalID: -2666353428022138538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_63
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 9000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96198909293921d44a8e41c4b589deaf
+      internalID: -1739517753143733444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_64
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 9000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ce91d17b7efcf64c8632087a237895d
+      internalID: -1202175983306900757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_65
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 9000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4523a89f5f5f0174589320fb2749e848
+      internalID: 703826195327117906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_66
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 9000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4630a5a0e59a1840a72858efb7c0285
+      internalID: -1647407855925403767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_67
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 9000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616bf45d740099248a7d35ae24010a0e
+      internalID: -9202066051595242841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_68
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 9000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f890c27bbc9a3be43be3d90ad8d959df
+      internalID: -2416204147759923113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_69
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 9000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b862132d6bbeb44f920b70dbaafe7a7
+      internalID: -5323364974412239083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c312431f9aef14aa4d7286a4ea38c8
+      internalID: 5725087068646363685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_71
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 8500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27495e36bbee26479417f50d819fb40
+      internalID: 4099640984102303065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_72
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 8500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea687b70fc1f303449015c4b147b7043
+      internalID: 4318393157636581837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_73
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 8500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f224e931e5bb0d540a113640cf5c2e8d
+      internalID: -5962628777908680055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_74
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 8500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ec557ee4769434fa97a59eaca4f110
+      internalID: 7500835052243431975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_75
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 8500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e0dd99f1a63634488b8ae13034170a8
+      internalID: -7538628435391272869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_76
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 8500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7cf96e66b6391a4dbf4af9be1b1c4d6
+      internalID: 3344980112335836002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_77
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 8500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6518f9398dcb8ad42b4ae4b05762e258
+      internalID: 9056887595499686902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_78
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 8500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9cc60776183fca4a968edc954eb0abe
+      internalID: -7196489625815673925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_79
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 8500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71eb56578b05274cb87b10898372bac
+      internalID: -3398435918416542908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90cac48757b39184e8e956d1d742613b
+      internalID: -8120340351187111324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_81
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 8000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7472079c1b1cfbb4785b9466d5908d87
+      internalID: -2272858391749855177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_82
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 8000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf6bea8141dbf94ebae191af5224b98
+      internalID: 1894889406215758869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_83
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 8000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 684156069c8187248a9b5b350ed57e7d
+      internalID: -5935519333471390691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_84
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 8000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c01c4445c64cb44b21b01bca54c183
+      internalID: 6871388588987801754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_85
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 8000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d7c8ca1d74833488f73a91a28369bf
+      internalID: -6925101064523971921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_86
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 8000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61a185141e48e94a86ea11016aa2b55
+      internalID: -9146341582762669000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_87
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 8000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5168eba6d65c9404eb5dceb428c5febf
+      internalID: 3046810984897084100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_88
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 8000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc6fbd97639a3a4883d2922d2f7dbc3
+      internalID: 8171641552919858160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_89
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 8000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f776d2ecd45b4b345b4bb4d2c03d3b0e
+      internalID: 2691896460994036537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ac09d9faeadea4b839fb1f8516a382
+      internalID: -4096345047839215760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_91
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 7500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cda22770eb6fc74fa276671b8e9ffb4
+      internalID: 764877627023054056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_92
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 7500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360e1d431006670438ee3d2ecc66085f
+      internalID: -5880445873725549493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_93
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 7500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 513bc1eab8c3bbb468eee18cf9ca53d3
+      internalID: 3875728841008211138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_94
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 7500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa0b41406cc6d74cb5c30cc456a7431
+      internalID: -7049879910766562019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_95
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 7500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6746ec13bd5212a44a43b1cbbc381353
+      internalID: -1240244359831282426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_96
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 7500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b4289a3906f65042be0bd0c38c3d182
+      internalID: -3164006850726633800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_97
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 7500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102c7478a5866ae489d5b98936e3e6f7
+      internalID: -5272967040919032389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_98
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 7500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a18942db2235b441b1101f14ccb0c0d
+      internalID: 939151493154018565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_99
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 7500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb61af572a8c354d944d32bff4336cd
+      internalID: 3972692612548282776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879e2e5c2adfed94fb930d6535249464
+      internalID: 3649689314537212840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_101
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 7000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f84791ff426a94791709fc7672380c
+      internalID: -1970245217767576034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_102
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 7000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b893d54c446bd84781732d67f173796
+      internalID: 555628348484430882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_103
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 7000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72bb75568df07a444ae6c363304fdb61
+      internalID: 7200194896960439423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_104
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 7000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a9929573a11054db90bc4c0a4cc787
+      internalID: -6843403962234244998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_105
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 7000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46cb0bb7a1212fd4d9fb34c723d2e851
+      internalID: -5190769707595702865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_106
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 7000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44210059094a0d42aca362be615df30
+      internalID: -472829629164517997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_107
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 7000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2003e5d61c6324b829f3dfecb8e0a9
+      internalID: 3483167026084803906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_108
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 7000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eede04242e94dd14d80a58cf09eacbb9
+      internalID: 508912712833172170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_109
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 7000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1931eed062704d479fa9f3dab196647
+      internalID: -1437817116192300965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae916e8a021843d4aa0c14c8df04065c
+      internalID: 2277401516462383500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_111
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 6500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31bef4341b412d549b2bb2dc085494f3
+      internalID: 7151493021806035204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_112
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 6500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e3684f471e1164392a3bc4ec671753
+      internalID: 2781593580497399096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_113
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 6500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed38b1185974d9e4da96b869c9e885cd
+      internalID: 2917552922030535637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_114
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 6500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46921b32028ac2440bce20d9e4159266
+      internalID: 8581167184197181671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_115
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 6500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e388c23d9973248ad3941993f977b7
+      internalID: 8798840339980483377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_116
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 6500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f37f914465fb941a52d24519d84329
+      internalID: -5029324919965806072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_117
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 6500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931f8fba15aef604d8e7474a94cab1b7
+      internalID: 7309048021634415703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_118
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 6500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e588d744d0a4ea842b0ef2bacf9b92d9
+      internalID: 8515038769834803464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_119
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 6500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c50d342a65c359443b33533ef5a3044c
+      internalID: -6616049042584020583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 811a6e5d2777bab4fbff620f84b8e556
+      internalID: -4772885125297196448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_121
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 6000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d037e8c727b465c49901e9f4647d5964
+      internalID: 3786343992588230577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_122
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 6000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b287dd47c32770428b1b0d625134326
+      internalID: -2480688623728442719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_123
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 6000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b138ecb915809de42b4f359b8aa4a170
+      internalID: -2359884749072890903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_124
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 6000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27a9802ac7713944a183cc70a10c6fc
+      internalID: -1384062269479016287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_125
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 6000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711a3c100dd79af42b305bab4e61e372
+      internalID: 20373780202459153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_126
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 6000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34eb79ab78373e408fc981ae6ab5bf7
+      internalID: 6588729273773501596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_127
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 6000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f222fe8c30bdc4d9b3462e983fdf64
+      internalID: -2003467087483747418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_128
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 6000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc3d4fe3de358d44096ff337b1a038ba
+      internalID: -2809866121108336522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_129
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 6000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba05114d2f6e284289d8e205cd5b660
+      internalID: -5509730252529028367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_130
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c74517f223beed4f8a0ccf925a23b16
+      internalID: -2644033946752039336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_131
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 5500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ffaa5039dfa53a4487fdf7670cafc45
+      internalID: -7727688605433312021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_132
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 5500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c348d528bf0c4954da9275831c30b7e5
+      internalID: -1040396021356060946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_133
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 5500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410119cb32bb5a84a8a896f674b04236
+      internalID: -950431502081738806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_134
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 5500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f321ebfde459447809adff243782a4
+      internalID: 3534272129708683715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_135
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 5500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682186b7b7c6eb14cacdae6d57f99f58
+      internalID: 6155965307157028757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_136
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 5500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cab779195d8ff74cae70821dc39e8ae
+      internalID: -5494796307636283712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_137
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 5500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf6566ca65fb0245b4357f736722608
+      internalID: 67216786359530376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_138
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 5500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c527ee16219728846b11b0fb5ff136ff
+      internalID: -8115336749953566387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_139
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 5500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0fadbbf8e68aa448d5d348da1e4c31
+      internalID: -8145541176861745197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1936a9f2638aaf543b178beb14d6a5e0
+      internalID: -3568175048541891598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_141
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 5000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab088f26da72d6a48baf73a57682cb42
+      internalID: 6155241358672961176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_142
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 5000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046ef1c802b524547b0df241c4584d3d
+      internalID: 8066399009199033956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_143
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 5000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad8c1cd3cb5dba4598ed3e3ca109619
+      internalID: 6411641508054484989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_144
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 5000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a9c92becc1f8045bf6c6d56581cbf0
+      internalID: 7223470876403380759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_145
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 5000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18fa027e3373f694d9bc9e0d3f4c9ebf
+      internalID: -3384024792264991635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_146
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 5000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294f0b2c581f36b4ba3bc178eda30656
+      internalID: -6549034563110113537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_147
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 5000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce34246c8bbf1b4ca6970a9b2b623c3
+      internalID: -3471948083996072605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_148
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 5000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315a47da799b1af46aff2633e90d1857
+      internalID: 3144742558699383317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_149
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 5000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ca7ff6dea758b4ea41941624b41da0
+      internalID: 5580513695312657992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_150
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd374f7ab23b0a3428b7a875f533cd59
+      internalID: 7096243859370251381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_151
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 4500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bb7794a1253a2549aa3b3584141984a
+      internalID: 6079934655880372605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_152
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 4500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 527c99da0eb9f97498df91adc2ca92cf
+      internalID: 8299740002292832357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_153
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 4500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d478d769b13a6ff4e878a44949136c84
+      internalID: 7840382599032162762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_154
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 4500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f703e33cb4c391843bea73f4e91fedd6
+      internalID: 6874354385266535586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_155
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 4500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d44a728ec565743a8ca92ad1e78335
+      internalID: -2432432806837460992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_156
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 4500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1020f280184d844be97bf832732d45
+      internalID: 8599047393169779170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_157
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 4500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ebcfd588eabb59409d825af3adb3217
+      internalID: 5917326382364501373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_158
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 4500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e80de83b4eb79469f2cd1cd7b89f06
+      internalID: -6152124912007584109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_159
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 4500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 756c4ba5e82fcb745b2287b62dc9a35f
+      internalID: 8386845252125164552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6a7a06e469da94db9c6b66b0bbcbe6
+      internalID: -7166529325355519847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_161
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 4000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a64be5b0691f49341ba707b15ae2b862
+      internalID: 300750342974715744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_162
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 4000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47fc45322ca01f441aca74b1a6c4c6d8
+      internalID: -6873551164627567497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_163
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 4000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61992893a01327b488d7951a237bd7e9
+      internalID: -731633371797711547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_164
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 4000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2aa57dcb2315e541b59f04abd936c15
+      internalID: 8917520039994498523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_165
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 4000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677c0c8a8b54a534cb74480147c7df41
+      internalID: 5397359421826714367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_166
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 4000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133f80256b4562447b9e2754e5bfa8c2
+      internalID: -3586406987926830600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_167
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 4000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2e88c57a67369488ff1014f2699a2d
+      internalID: 6541588596632135946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_168
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 4000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b23162ff572d5d41b9f7f73626bb392
+      internalID: 1625598486330863586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_169
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 4000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4af03e33423cd74197f5af6f519f004
+      internalID: 4021731184243154893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_170
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33fb3fcd27dfa3f47a0d28bf033510ed
+      internalID: 409424574332730975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_171
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 3500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3402840c38606be43b74b72b0955b840
+      internalID: -4067881699313693727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_172
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 3500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb88bbcb7a328444b06837e950d5cf3
+      internalID: -8054275493412690474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_173
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 3500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ef841c3f228e1546ba0fcc001b1b118
+      internalID: -8180859157238634233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_174
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 3500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b0d717297803c44b3b59c5c521c89c
+      internalID: -5912169683541344310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_175
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 3500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9552db85458ac804fb700cb23f7141ba
+      internalID: 5287481571521969529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_176
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 3500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91086f8ff107beb43865b4a08e34fc38
+      internalID: 7246117688979876955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_177
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 3500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc22c412285487644af328d70b2dd7e8
+      internalID: -4635247165568460037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_178
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 3500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 443740984edd5814fb299aa663163c41
+      internalID: 5094308111138371216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_179
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 3500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 474d69cf824f62a4ca59d3a4ad5e9407
+      internalID: -2894414155483304355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_180
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de250706fd2ac4f4f8c97b1fbdffceaa
+      internalID: 2455489705706615571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_181
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 3000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6427446256ef2fd4f8514cbc95dd4787
+      internalID: -3614905589201831533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_182
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 3000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5540db460e5b5e94fae218dac2075163
+      internalID: 4554469043465780150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_183
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 3000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29dcd939ac70e1d4e96c60fc94c415a0
+      internalID: 2908308910898340317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_184
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 3000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 973dc14fe7b4d9443b50b31778837c33
+      internalID: 4427259591673680062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_185
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 3000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b929f0551edfb074aaed1cac1b47743c
+      internalID: -3485275065854828650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_186
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 3000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2340c2bba5e77934f922735e26106c50
+      internalID: 2032148662086385106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_187
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 3000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1c97ba103427546ab04848dd88f126
+      internalID: -5067397947257042699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_188
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 3000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb977be5a36e7a84589bc5079777a9b9
+      internalID: 1198915541626367178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_189
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 3000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd9707b452a66342bae6eb1d2f3cc3d
+      internalID: 5506305205140274079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_190
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a503f35e2b4cb04b9091bf4e0c9cf56
+      internalID: -8119928318590292833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_191
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717469ac500218e41a4c04a74e9638c1
+      internalID: 6074277843803884679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_192
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dbf1ce0af4606d419927315d934bdbe
+      internalID: 2741262200402251407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_193
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b025164e9cfffe4893737aea95ec6c3
+      internalID: 5777315252789890171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_194
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7b3eff7d0ccef499ee6ec71fb998a7
+      internalID: -3755751802424949065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_195
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 2500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 207a3b71b6af0814eb86b354faeb5d72
+      internalID: -878799537584925272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_196
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 896f3b45d135bb745afc3bd2bcf9ef6a
+      internalID: -3689604478279652302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_197
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 2500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920eeda851a5893448350b2a2276d6b0
+      internalID: 568291782552132136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_198
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 2500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4a6d6338cdbb141b580d8c1858ebc4
+      internalID: 2029352420548438139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_199
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 2500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd4eeb5947dfeb9449a1bbc3db9b3e2b
+      internalID: 3344412431761975961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_200
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e97066a59ea7b9149963cb0bddbe23f5
+      internalID: 2223577401839204374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_201
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9410057328928e47960c982b86428cc
+      internalID: 6261851887187585948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_202
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c9e0cf6ac40884e95cb611448f37da
+      internalID: -403508245895387097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_203
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a716d6668cf41114eaab37c0b21ead21
+      internalID: 5696926004461056248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_204
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e515079c3cb8a4dbcd806b38f31c98
+      internalID: 1213014995497564414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_205
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 2000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b102eb7ac0f324d9cc785f0cc1c850
+      internalID: -3205056711823199452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_206
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729812ea28e2b404399cfecf4f01b57c
+      internalID: -8050584570843113612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_207
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 2000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a23c790e0942dd04faf530ca78960507
+      internalID: -7629129641604689896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_208
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 2000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edfbc3a6faa940341a465296ac883142
+      internalID: -7575669871992680279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_209
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 2000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8790a038ebab8db42aff0e25db62bf5a
+      internalID: -6597911463663737364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_210
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca7616c0ee14e44da936ce887ac5d09
+      internalID: -7152984579078390965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_211
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8179c118af337cd408380c3b3f80155b
+      internalID: -360195775382476189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_212
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d81d741f05fee744b04565f6d6b9a9f
+      internalID: -4336436807784773971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_213
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d123ef66b1893754e83ea5cc01159dae
+      internalID: 5829594015847020533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_214
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd628a84098c7ae43bcbf933bca37370
+      internalID: 8037487140401733350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_215
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 722a3c44278ef69428dff8b9117472eb
+      internalID: -5454300459560412022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_216
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7846a003580529e45b8d70de8895f4d2
+      internalID: 7613728135808965139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_217
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 1500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da7d74480393e7848bf4c1e0b9f18e8c
+      internalID: -6942001114368847575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_218
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 1500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2339e25e66161134ea362a7f8b44dcb8
+      internalID: 2665739024676853746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_219
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 1500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea2a3a2e02215d41b8b844ea257ff84
+      internalID: 6157732880539562809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_220
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c56a825e9427c4095099ac8fb2d3d1
+      internalID: 5513062683545719763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_221
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4acf0accc655e74899fbe7752fac977
+      internalID: 5671572513420350336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_222
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502bec1132604a044ac494020cc48a60
+      internalID: -529183313642829638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_223
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647b2d21a190b6148b90880dc0929681
+      internalID: 21766483858169001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_224
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73afdfb2ed70ba24b862f2d4b35fe917
+      internalID: -7419179252130721406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_225
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160bc0ffbb7c8684f8b0e2f1fc2f2c9e
+      internalID: 6414330295215237108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_226
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3a508918b711534095358cf99ea1278
+      internalID: -7675958566900835446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_227
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 1000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d235252711439b445be200effb986e9c
+      internalID: -9124170019462595741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_228
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 1000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702c9210486b21b45b977fd45224e63b
+      internalID: -5081841536188560426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_229
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 1000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc58b24aec2f474caa27f40a055e5d7
+      internalID: -3922497733209149276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_230
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4309d7bf0c21d45892a1b22eaf6bef
+      internalID: 4053109109687588590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_231
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc97fe7555805a4197b93e54081f19b
+      internalID: 5827479839701401049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_232
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 716f00089d6cdf149b218a4d29ebea12
+      internalID: 692066679542803790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_233
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b22744d3741b2c54681b0d61cb7cdfe8
+      internalID: 8111780717636179965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_234
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f4faf8d802b1942b23c6ba9a6d7a4c
+      internalID: 4729860051397346738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_235
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c90c5f761387446a1b3e01454c29d6
+      internalID: 7877657868394019244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_236
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30e2cf37f3526547af84647f0b5cfca
+      internalID: -6216631431276293051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_237
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15243d231c8fca04caf45cf10f5036e2
+      internalID: -3789793023469992186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_238
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d0a434c55c23d499f9b9bea8fbfc88
+      internalID: -3970886796934209222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_239
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25fcd46324056be49bc06954873037ce
+      internalID: -4654464294797040988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_240
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c7e84d322236a45b21ec7026c82c6d
+      internalID: 5168847158412147415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_241
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38da2603b4c880c4e9a226f36e692008
+      internalID: 5126082317984868922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_242
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48eafc19ec35774198eeda76349b1de
+      internalID: 6560032926157851488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_243
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8834034ad1915794e9366b970b4ca852
+      internalID: -1483923376786771454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_244
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e32d8bae44a1d47a1357aa438aa87b
+      internalID: 8692595269624417027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_245
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 376138ecb599e704bae93c1caf5158fa
+      internalID: -3056793017855148469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_246
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 913699b15cdf28f48a829afaae92ba02
+      internalID: -4145373617001856614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_247
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54dd968a5ee0ef040a7ecb200d2b3fcf
+      internalID: 2559288174646773752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_248
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45bb5e1ef49d3294981f9f503592ca64
+      internalID: -3326991934329162030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_249
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae949927ba2d7147b28f280835d6495
+      internalID: -7509797676500590405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamezz_250
+      rect:
+        serializedVersion: 2
+        x: 2371
+        y: 3750
+        width: 2629
+        height: 1944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e887bd6e42bac54bb77923a90294f57
+      internalID: -103879700469179922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 3c529d22bda69a24296945ce9aead278
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
