@@ -53,7 +53,7 @@ public class InputController2 : MonoBehaviour
             else if (touch.phase == TouchPhase.Moved || touch.phase == TouchPhase.Stationary)
             {
                 lastPosition = touch.position;
-                playerMovement.ContinuousMovement(lastPosition);
+                //playerMovement.ContinuousMovement(lastPosition);
             }
             else if (touch.phase == TouchPhase.Ended)
             {
@@ -86,7 +86,7 @@ public class InputController2 : MonoBehaviour
         if (trackMouse)
         {
             lastPosition = Input.mousePosition;
-            playerMovement.ContinuousMovement(lastPosition);
+            //playerMovement.ContinuousMovement(lastPosition);
         }
     }
 }

@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public int DashMultiplier = 2000;
-    public int MoveMultiplier = 200;
-    public float CoolDownValue = 0.3f;
+    public int DashMultiplier = 2500;
+    public int MoveMultiplier = 1000;
+    public float CoolDownValue = 0.1f;
     public float ChargeThreshold = 0.25f;
     public float DashDuration = 0.1f;
     public float MoveDuration = 0.2f;
 
-    public float moveSpeed = 3f;
-    public float range = 2f;
+    //public float moveSpeed = 3f;
+    //public float range = 2f;
 
     private Rigidbody rigidBody;
     private Material material;
@@ -22,6 +22,8 @@ public class PlayerMovement : MonoBehaviour
     private float colorValue = 1;
 
     private Vector3 lastPosition;
+    private Grid grid;
+    private TrailRenderer trailRenderer;
 
     public float Timer { get; set; }
 
@@ -32,7 +34,12 @@ public class PlayerMovement : MonoBehaviour
     {
         rigidBody = GetComponent<Rigidbody>();
         material = GetComponent<Renderer>().material;
+        grid = FindObjectOfType<Grid>();
+        trailRenderer = GetComponent<TrailRenderer>();
+        trailRenderer.enabled = false;
         spawnPos = rigidBody.position;
+
+        transform.position = grid.GetCellCenterWorld(new Vector3Int(-1, 0, -4));
     }
 
     // Update is called once per frame
@@ -56,6 +63,7 @@ public class PlayerMovement : MonoBehaviour
         if (isMoving)
             return;
 
+        trailRenderer.enabled = true;
         isMoving = true;
 
         rigidBody.velocity = Vector3.zero;
@@ -68,7 +76,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void ResetDash()
     {
-        material.SetColor("_Color", Color.white);
+        material.SetColor("_Color", Color.black);
         colorValue = 1f;
         IsDashCharged = false;
     }
@@ -89,49 +97,50 @@ public class PlayerMovement : MonoBehaviour
     {
         yield return  new WaitForSeconds(duration);
         rigidBody.velocity = Vector3.zero;
+        trailRenderer.enabled = false;
 
         yield return new WaitForSeconds(CoolDownValue);
         isMoving = false;
     }
 
-    public void ContinuousMovement(Vector3 touchPosition)
-    {
-        RaycastHit hit;
-        Ray ray = Camera.main.ScreenPointToRay(touchPosition);
-        if (Physics.Raycast(ray, out hit))
-        {
-            Vector3 targetPos = hit.point;
-            if (Vector3.Distance(targetPos, lastPosition) > range)
-            {
-                targetPos.y = transform.position.y;
-                transform.LookAt(targetPos);
-                transform.position = Vector3.MoveTowards(transform.position, targetPos, moveSpeed * Time.deltaTime);
-            }
+    //public void ContinuousMovement(Vector3 touchPosition)
+    //{
+    //    RaycastHit hit;
+    //    Ray ray = Camera.main.ScreenPointToRay(touchPosition);
+    //    if (Physics.Raycast(ray, out hit))
+    //    {
+    //        Vector3 targetPos = hit.point;
+    //        if (Vector3.Distance(targetPos, lastPosition) > range)
+    //        {
+    //            targetPos.y = transform.position.y;
+    //            transform.LookAt(targetPos);
+    //            transform.position = Vector3.MoveTowards(transform.position, targetPos, moveSpeed * Time.deltaTime);
+    //        }
 
-            if (lastPosition == transform.position)
-            {
-                Timer += Time.deltaTime;
-                if (Timer >= ChargeThreshold)
-                {
-                    ChargeDash();
-                    IsDashCharged = true;
-                }
-            }
-            else
-            {
-                if (!IsDashCharged)
-                {
-                    ResetDash();
-                    Timer = 0;
-                }
-                else
-                {
-                    Vector3 dashDirection = (transform.position - lastPosition).normalized;
-                    StartDash(dashDirection);
-                }
-            }
+    //        if (lastPosition == transform.position)
+    //        {
+    //            Timer += Time.deltaTime;
+    //            if (Timer >= ChargeThreshold)
+    //            {
+    //                ChargeDash();
+    //                IsDashCharged = true;
+    //            }
+    //        }
+    //        else
+    //        {
+    //            if (!IsDashCharged)
+    //            {
+    //                ResetDash();
+    //                Timer = 0;
+    //            }
+    //            else
+    //            {
+    //                Vector3 dashDirection = (transform.position - lastPosition).normalized;
+    //                StartDash(dashDirection);
+    //            }
+    //        }
 
-            lastPosition = transform.position;
-        }
-    }
+    //        lastPosition = transform.position;
+    //    }
+    //}
 }
