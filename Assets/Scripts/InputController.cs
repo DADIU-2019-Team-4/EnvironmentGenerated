@@ -8,8 +8,8 @@ public class InputController : MonoBehaviour
     private float verticalSwipeDistance;
     private float horizontalSwipeDistance;
 
-    private readonly Vector3[] firstPosition = new Vector3[2];
-    private readonly Vector3[] lastPosition = new Vector3[2];
+    private Vector3 firstPosition;
+    private Vector3 lastPosition;
     private bool hasSwiped;
 
     private bool trackMouse;
@@ -19,6 +19,13 @@ public class InputController : MonoBehaviour
 
     [SerializeField]
     private bool canSwipeDiagonal;
+
+    [SerializeField]
+    private float coyoteTime = 0.5f;
+
+    private float coyoteTimer;
+
+    private bool swipeRegistered;
 
     private void Awake()
     {
@@ -38,6 +45,14 @@ public class InputController : MonoBehaviour
     public void Update()
     {
         HandleInput();
+
+        if (swipeRegistered)
+        {
+            if (!hasSwiped)
+            {
+
+            }
+        }
     }
 
 
@@ -59,15 +74,15 @@ public class InputController : MonoBehaviour
     /// </summary>
     private void MobileInput()
     {
-        Touch[] touches = Input.touches;
-        for (int i = 0; i < Input.touchCount; i++)
+        if (Input.touchCount > 0)
         {
-            if (touches[i].phase == TouchPhase.Began)
+            Touch touch = Input.GetTouch(0);
+            if (touch.phase == TouchPhase.Began)
             {
-                firstPosition[i] = touches[i].position;
-                lastPosition[i] = touches[i].position;
+                firstPosition = touch.position;
+                lastPosition = touch.position;
             }
-            else if (touches[i].phase == TouchPhase.Stationary)
+            else if (touch.phase == TouchPhase.Stationary)
             {
                 timer += Time.deltaTime;
                 if (timer >= playerMovement.ChargeThreshold)
@@ -76,15 +91,19 @@ public class InputController : MonoBehaviour
                     playerMovement.IsDashCharged = true;
                 }
             }
-            else if (touches[i].phase == TouchPhase.Moved)
+            else if (touch.phase == TouchPhase.Moved)
             {
                 if (!hasSwiped)
                 {
-                    lastPosition[i] = touches[i].position;
-                    CheckSwipe(i);
+                    lastPosition = touch.position;
+                    CheckSwipe();
+                }
+                else if (!swipeRegistered)
+                {
+                    swipeRegistered = true;
                 }
             }
-            else if (touches[i].phase == TouchPhase.Ended)
+            else if (touch.phase == TouchPhase.Ended)
             {
                 hasSwiped = false;
                 timer = 0;
@@ -102,8 +121,8 @@ public class InputController : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             trackMouse = true;
-            firstPosition[0] = Input.mousePosition;
-            lastPosition[0] = Input.mousePosition;
+            firstPosition = Input.mousePosition;
+            lastPosition = Input.mousePosition;
         }
 
         if (Input.GetMouseButton(0))
@@ -125,8 +144,8 @@ public class InputController : MonoBehaviour
 
         if (trackMouse)
         {
-            lastPosition[0] = Input.mousePosition;
-            CheckSwipe(0);
+            lastPosition = Input.mousePosition;
+            CheckSwipe();
         }
     }
 
@@ -134,27 +153,27 @@ public class InputController : MonoBehaviour
     /// <summary>
     /// Checks how to player has swiped.
     /// </summary>
-    private void CheckSwipe(int i)
+    private void CheckSwipe()
     {
-        Vector3 directionVector = lastPosition[i] - firstPosition[i];
+        Vector3 directionVector = lastPosition - firstPosition;
 
         //if (SwipedLongEnough(directionVector)) return;
 
         if (Math.Abs(directionVector.x) > horizontalSwipeDistance)
         {
             if (playerMovement.IsDashCharged)
-                playerMovement.StartDash(HorizontalSwipe(i));
+                playerMovement.StartDash(HorizontalSwipe());
             else
-                playerMovement.StartMove(HorizontalSwipe(i));
+                playerMovement.StartMove(HorizontalSwipe());
 
             hasSwiped = true;
         }
         else if (Math.Abs(directionVector.y) > verticalSwipeDistance)
         {
             if (playerMovement.IsDashCharged)
-                playerMovement.StartDash(VerticalSwipe(i));
+                playerMovement.StartDash(VerticalSwipe());
             else
-                playerMovement.StartMove(VerticalSwipe(i));
+                playerMovement.StartMove(VerticalSwipe());
 
             hasSwiped = true;
         }
@@ -163,9 +182,9 @@ public class InputController : MonoBehaviour
             if (canSwipeDiagonal && Math.Abs(directionVector.y) > verticalSwipeDistance / 3 &&
                 Math.Abs(directionVector.x) > horizontalSwipeDistance / 3)
             {
-                if (lastPosition[i].x > firstPosition[i].x)
+                if (lastPosition.x > firstPosition.x)
                 {
-                    if (lastPosition[i].y > firstPosition[i].y)
+                    if (lastPosition.y > firstPosition.y)
                     {
                         if (playerMovement.IsDashCharged)
                             playerMovement.StartDash(new Vector3(1, 0, 1));
@@ -186,7 +205,7 @@ public class InputController : MonoBehaviour
                 }
                 else
                 {
-                    if (lastPosition[i].y > firstPosition[i].y)
+                    if (lastPosition.y > firstPosition.y)
                     {
                         if (playerMovement.IsDashCharged)
                             playerMovement.StartDash(new Vector3(-1, 0, 1));
@@ -218,18 +237,18 @@ public class InputController : MonoBehaviour
     }
 
 
-    private Vector3 HorizontalSwipe(int i)
+    private Vector3 HorizontalSwipe()
     {
-        if (lastPosition[i].x > firstPosition[i].x)
+        if (lastPosition.x > firstPosition.x)
             return Vector3.right;
 
         return Vector3.left;
     }
 
 
-    private Vector3 VerticalSwipe(int i)
+    private Vector3 VerticalSwipe()
     {
-        if (lastPosition[i].y > firstPosition[i].y)
+        if (lastPosition.y > firstPosition.y)
             return Vector3.forward;
 
         return Vector3.back;

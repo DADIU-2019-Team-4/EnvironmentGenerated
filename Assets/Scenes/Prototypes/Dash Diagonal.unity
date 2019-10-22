@@ -153,12 +153,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4d4f8a915c735d4086618a1e94ef465, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DashMultiplier: 2000
-  MoveMultiplier: 350
-  CoolDownValue: 0.15
+  DashMultiplier: 2500
+  MoveMultiplier: 1000
+  CoolDownValue: 0.1
   ChargeThreshold: 0.25
   DashDuration: 0.15
-  MoveDuration: 0.5
+  MoveDuration: 0.2
+  moveSpeed: 3
+  range: 3
 --- !u!65 &84472534
 BoxCollider:
   m_ObjectHideFlags: 0
