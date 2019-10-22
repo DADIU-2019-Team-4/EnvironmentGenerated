@@ -159,8 +159,8 @@ MonoBehaviour:
   ChargeThreshold: 0.25
   DashDuration: 0.15
   MoveDuration: 0.5
-  moveSpeed: 3
-  range: 2
+  moveSpeed: 4
+  range: 2.5
 --- !u!65 &84472534
 BoxCollider:
   m_ObjectHideFlags: 0
