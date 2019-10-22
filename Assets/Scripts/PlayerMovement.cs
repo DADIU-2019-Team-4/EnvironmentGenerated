@@ -11,12 +11,18 @@ public class PlayerMovement : MonoBehaviour
     public float DashDuration = 0.1f;
     public float MoveDuration = 0.2f;
 
+    public float moveSpeed = 3f;
+
     private Rigidbody rigidBody;
     private Material material;
     private Vector3 spawnPos;
     private readonly int maxNegativeY = -5;
     private bool isMoving;
     private float colorValue = 1;
+
+    private Vector3 lastPosition;
+
+    public float Timer { get; set; }
 
     public bool IsDashCharged { get; set; }
 
@@ -85,5 +91,43 @@ public class PlayerMovement : MonoBehaviour
 
         yield return new WaitForSeconds(CoolDownValue);
         isMoving = false;
+    }
+
+    public void ContinuousMovement(Vector3 touchPosition)
+    {
+        RaycastHit hit;
+        Ray ray = Camera.main.ScreenPointToRay(touchPosition);
+        if (Physics.Raycast(ray, out hit))
+        {
+            Vector3 targetPos = hit.point;
+            targetPos.y = transform.position.y;
+            transform.LookAt(targetPos);
+            transform.position = Vector3.MoveTowards(transform.position, targetPos, moveSpeed * Time.deltaTime);
+
+            if (lastPosition == transform.position)
+            {
+                Timer += Time.deltaTime;
+                if (Timer >= ChargeThreshold)
+                {
+                    ChargeDash();
+                    IsDashCharged = true;
+                }
+            }
+            else
+            {
+                if (!IsDashCharged)
+                {
+                    ResetDash();
+                    Timer = 0;
+                }
+                else
+                {
+                    Vector3 dashDirection = (transform.position - lastPosition).normalized;
+                    StartDash(dashDirection);
+                }
+            }
+
+            lastPosition = transform.position;
+        }
     }
 }
