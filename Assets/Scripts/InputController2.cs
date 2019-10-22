@@ -50,7 +50,7 @@ public class InputController2 : MonoBehaviour
                 firstPosition = touch.position;
                 lastPosition = touch.position;
             }
-            else if (touch.phase == TouchPhase.Moved)
+            else if (touch.phase == TouchPhase.Moved || touch.phase == TouchPhase.Stationary)
             {
                 lastPosition = touch.position;
                 playerMovement.ContinuousMovement(lastPosition);

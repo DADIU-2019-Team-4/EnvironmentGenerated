@@ -160,6 +160,7 @@ MonoBehaviour:
   DashDuration: 0.15
   MoveDuration: 0.5
   moveSpeed: 3
+  range: 2
 --- !u!65 &84472534
 BoxCollider:
   m_ObjectHideFlags: 0

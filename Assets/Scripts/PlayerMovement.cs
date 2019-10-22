@@ -12,6 +12,7 @@ public class PlayerMovement : MonoBehaviour
     public float MoveDuration = 0.2f;
 
     public float moveSpeed = 3f;
+    public float range = 2f;
 
     private Rigidbody rigidBody;
     private Material material;
@@ -100,9 +101,12 @@ public class PlayerMovement : MonoBehaviour
         if (Physics.Raycast(ray, out hit))
         {
             Vector3 targetPos = hit.point;
-            targetPos.y = transform.position.y;
-            transform.LookAt(targetPos);
-            transform.position = Vector3.MoveTowards(transform.position, targetPos, moveSpeed * Time.deltaTime);
+            if (Vector3.Distance(targetPos, lastPosition) > range)
+            {
+                targetPos.y = transform.position.y;
+                transform.LookAt(targetPos);
+                transform.position = Vector3.MoveTowards(transform.position, targetPos, moveSpeed * Time.deltaTime);
+            }
 
             if (lastPosition == transform.position)
             {
