@@ -64,6 +64,15 @@ public class InputController : MonoBehaviour
                 firstPosition[i] = touches[i].position;
                 lastPosition[i] = touches[i].position;
             }
+            else if (touches[i].phase == TouchPhase.Stationary)
+            {
+                timer += Time.deltaTime;
+                if (timer >= playerMovement.ChargeThreshold)
+                {
+                    playerMovement.ChargeDash();
+                    playerMovement.IsDashCharged = true;
+                }
+            }
             else if (touches[i].phase == TouchPhase.Moved)
             {
                 if (!hasSwiped)
@@ -75,6 +84,8 @@ public class InputController : MonoBehaviour
             else if (touches[i].phase == TouchPhase.Ended)
             {
                 hasSwiped = false;
+                timer = 0;
+                playerMovement.ResetDash();
             }
         }
     }

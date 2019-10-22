@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour
     public int DashMultiplier = 2000;
     public int MoveMultiplier = 200;
     public float CoolDownValue = 0.3f;
-    public float ChargeThreshold = 0.5f;
+    public float ChargeThreshold = 0.25f;
     public float DashDuration = 0.1f;
     public float MoveDuration = 0.2f;
 
@@ -41,7 +41,7 @@ public class PlayerMovement : MonoBehaviour
     public void ChargeDash()
     {
         material.color = new Color(1, colorValue, colorValue, 1);
-        colorValue -= 0.01f;
+        colorValue -= 0.05f;
     }
 
     public void StartDash(Vector3 dashDirection)
