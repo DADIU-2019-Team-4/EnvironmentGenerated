@@ -354,6 +354,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minSwipeDistanceInPercentage: 0.1
+  canSwipeDiagonal: 1
 --- !u!4 &119762441
 Transform:
   m_ObjectHideFlags: 0

@@ -17,6 +17,9 @@ public class InputController : MonoBehaviour
     private PlayerMovement playerMovement;
     private float timer;
 
+    [SerializeField]
+    private bool canSwipeDiagonal;
+
     private void Awake()
     {
         playerMovement = FindObjectOfType<PlayerMovement>();
@@ -135,24 +138,76 @@ public class InputController : MonoBehaviour
     {
         Vector3 directionVector = lastPosition[i] - firstPosition[i];
 
-        if (SwipedLongEnough(directionVector)) return;
+        //if (SwipedLongEnough(directionVector)) return;
 
-        if (Mathf.Abs(directionVector.x) > Mathf.Abs(directionVector.y))
+        if (Math.Abs(directionVector.x) > horizontalSwipeDistance)
         {
             if (playerMovement.IsDashCharged)
                 playerMovement.StartDash(HorizontalSwipe(i));
             else
                 playerMovement.StartMove(HorizontalSwipe(i));
+
+            hasSwiped = true;
         }
-        else
+        else if (Math.Abs(directionVector.y) > verticalSwipeDistance)
         {
             if (playerMovement.IsDashCharged)
                 playerMovement.StartDash(VerticalSwipe(i));
             else
                 playerMovement.StartMove(VerticalSwipe(i));
-        }
 
-        hasSwiped = true;
+            hasSwiped = true;
+        }
+        else
+        {
+            if (canSwipeDiagonal && Math.Abs(directionVector.y) > verticalSwipeDistance / 3 &&
+                Math.Abs(directionVector.x) > horizontalSwipeDistance / 3)
+            {
+                if (lastPosition[i].x > firstPosition[i].x)
+                {
+                    if (lastPosition[i].y > firstPosition[i].y)
+                    {
+                        if (playerMovement.IsDashCharged)
+                            playerMovement.StartDash(new Vector3(1, 0, 1));
+                        else
+                            playerMovement.StartMove(new Vector3(1, 0, 1));
+
+                        hasSwiped = true;
+                    }
+                    else
+                    {
+                        if (playerMovement.IsDashCharged)
+                            playerMovement.StartDash(new Vector3(1, 0, -1));
+                        else
+                            playerMovement.StartMove(new Vector3(1, 0, -1));
+
+                        hasSwiped = true;
+                    }
+                }
+                else
+                {
+                    if (lastPosition[i].y > firstPosition[i].y)
+                    {
+                        if (playerMovement.IsDashCharged)
+                            playerMovement.StartDash(new Vector3(-1, 0, 1));
+                        else
+                            playerMovement.StartMove(new Vector3(-1, 0, 1));
+
+                        hasSwiped = true;
+                    }
+                    else
+                    {
+                        if (playerMovement.IsDashCharged)
+                            playerMovement.StartDash(new Vector3(-1, 0, -1));
+                        else
+                            playerMovement.StartMove(new Vector3(-1, 0, -1));
+
+                        hasSwiped = true;
+                    }
+
+                }
+            }
+        }
     }
 
 
