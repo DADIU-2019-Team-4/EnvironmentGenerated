@@ -16,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
     public int MoveCost = 1;
     public int DashCost = 3;
 
+    public int PickUpValue = 3;
     public int AmountOfMoves = 10;
     public TMP_Text MovesText;
     public GameObject OutOfMovesText;
@@ -29,9 +30,9 @@ public class PlayerMovement : MonoBehaviour
     private float colorValue = 1;
     private float changeTextColorDuration = 0.2f;
 
-    private Vector3 lastPosition;
     private Grid grid;
     private TrailRenderer trailRenderer;
+    private Vector3Int previousCell;
 
     private bool isMoving;
     private bool isDashing;
@@ -83,7 +84,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void StartMove(Vector3Int moveDirection)
     {
-        if (isOutOfMoves)
+        if (isOutOfMoves && reachedGoal)
             return;
 
         if (isMoving)
@@ -92,6 +93,7 @@ public class PlayerMovement : MonoBehaviour
         UpdateMovesText(MoveCost);
 
         var startCell = grid.WorldToCell(transform.position);
+        previousCell = startCell;
         var difference = moveDirection * MoveDistance;
         var targetCell = startCell + difference;
 
@@ -100,7 +102,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void StartDash(Vector3Int dashDirection)
     {
-        if (isOutOfMoves)
+        if (isOutOfMoves && reachedGoal)
             return;
 
         if (isMoving)
@@ -162,12 +164,35 @@ public class PlayerMovement : MonoBehaviour
 
     private void UpdateMovesText(int cost)
     {
-        AmountOfMoves = AmountOfMoves - cost;
+        AmountOfMoves -= cost;
         MovesText.text = AmountOfMoves.ToString();
         if (AmountOfMoves <= 0)
         {
             isOutOfMoves = true;
             MakeRestartButtonVisible();
+        }
+    }
+
+    private void OnTriggerEnter(Collider col)
+    {
+        if (col.gameObject.CompareTag("Goal"))
+        {
+            reachedGoal = true;
+            MakeRestartButtonVisible();
+        }
+        else if (col.gameObject.CompareTag("Obstacle"))
+        {
+            if (!isDashing)
+            {
+                AmountOfMoves += MoveCost;
+                MovesText.text = AmountOfMoves.ToString();
+                StartCoroutine(MoveRoutine(previousCell, MoveDuration));
+            }
+        }
+        else if (col.gameObject.CompareTag("PickUp"))
+        {
+            AmountOfMoves += PickUpValue;
+            MovesText.text = AmountOfMoves.ToString();
         }
     }
 }
