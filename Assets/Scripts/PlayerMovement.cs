@@ -2,6 +2,7 @@
 using DG.Tweening;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -12,19 +13,30 @@ public class PlayerMovement : MonoBehaviour
 
     public int MoveDistance = 1;
     public int DashDistance = 2;
+    public int MoveCost = 1;
+    public int DashCost = 3;
+
+    public int AmountOfMoves = 10;
+    public TMP_Text MovesText;
+    public GameObject OutOfMovesText;
+    public GameObject WinText;
 
     public Transform StartLocation;
+    public GameObject RestartButton;
 
     private Rigidbody rigidBody;
     private Material material;
-    private Vector3 spawnPos;
-    private readonly int maxNegativeY = -5;
-    private bool isMoving;
     private float colorValue = 1;
+    private float changeTextColorDuration = 0.2f;
 
     private Vector3 lastPosition;
     private Grid grid;
     private TrailRenderer trailRenderer;
+
+    private bool isMoving;
+    private bool isDashing;
+    private bool isOutOfMoves;
+    private bool reachedGoal;
 
     public float Timer { get; set; }
 
@@ -33,12 +45,13 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
+        MovesText.text = AmountOfMoves.ToString();
+
         rigidBody = GetComponent<Rigidbody>();
         material = GetComponent<Renderer>().material;
         grid = FindObjectOfType<Grid>();
         trailRenderer = GetComponent<TrailRenderer>();
         trailRenderer.enabled = false;
-        spawnPos = rigidBody.position;
 
         if (StartLocation == null)
             StartLocation = transform;
@@ -47,14 +60,19 @@ public class PlayerMovement : MonoBehaviour
         transform.position = grid.GetCellCenterWorld(cell);
     }
 
-    // Update is called once per frame
-    private void Update()
+    private void MakeRestartButtonVisible()
     {
-        if (rigidBody.position.y < maxNegativeY)
-        {
-            rigidBody.position = spawnPos;
-            rigidBody.velocity = Vector3.zero;
-        }
+        if (reachedGoal)
+            WinText.SetActive(true);
+        else
+            OutOfMovesText.SetActive(true);
+
+        RestartButton.SetActive(true);
+    }
+
+    public void RestartScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void ChargeDash()
@@ -65,8 +83,13 @@ public class PlayerMovement : MonoBehaviour
 
     public void StartMove(Vector3Int moveDirection)
     {
+        if (isOutOfMoves)
+            return;
+
         if (isMoving)
             return;
+
+        UpdateMovesText(MoveCost);
 
         var startCell = grid.WorldToCell(transform.position);
         var difference = moveDirection * MoveDistance;
@@ -77,9 +100,22 @@ public class PlayerMovement : MonoBehaviour
 
     public void StartDash(Vector3Int dashDirection)
     {
+        if (isOutOfMoves)
+            return;
+
         if (isMoving)
             return;
 
+        int movesLeft = AmountOfMoves - DashCost;
+        if (movesLeft < 0)
+        {
+            StartCoroutine(ChangeTextColorRoutine());
+            return;
+        }
+
+        UpdateMovesText(DashCost);
+
+        isDashing = true;
         trailRenderer.enabled = true;
 
         var startCell = grid.WorldToCell(transform.position);
@@ -111,5 +147,27 @@ public class PlayerMovement : MonoBehaviour
 
         yield return new WaitForSeconds(CoolDownValue);
         isMoving = false;
+
+        if (isDashing)
+            isDashing = false;
+    }
+
+    private IEnumerator ChangeTextColorRoutine()
+    {
+        MovesText.DOColor(Color.red, changeTextColorDuration);
+        yield return new WaitForSeconds(changeTextColorDuration);
+        MovesText.DOColor(Color.white, changeTextColorDuration);
+        yield return new WaitForSeconds(changeTextColorDuration);
+    }
+
+    private void UpdateMovesText(int cost)
+    {
+        AmountOfMoves = AmountOfMoves - cost;
+        MovesText.text = AmountOfMoves.ToString();
+        if (AmountOfMoves <= 0)
+        {
+            isOutOfMoves = true;
+            MakeRestartButtonVisible();
+        }
     }
 }
