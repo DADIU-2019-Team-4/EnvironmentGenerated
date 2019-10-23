@@ -21,8 +21,6 @@ public class PlayerMovement : MonoBehaviour
     public TMP_Text MovesText;
     public GameObject OutOfMovesText;
     public GameObject WinText;
-
-    public Transform StartLocation;
     public GameObject RestartButton;
 
     private Rigidbody rigidBody;
@@ -54,10 +52,7 @@ public class PlayerMovement : MonoBehaviour
         trailRenderer = GetComponent<TrailRenderer>();
         trailRenderer.enabled = false;
 
-        if (StartLocation == null)
-            StartLocation = transform;
-
-        Vector3Int cell = grid.WorldToCell(StartLocation.position);
+        Vector3Int cell = grid.WorldToCell(transform.position);
         transform.position = grid.GetCellCenterWorld(cell);
     }
 
@@ -84,7 +79,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void StartMove(Vector3Int moveDirection)
     {
-        if (isOutOfMoves && reachedGoal)
+        if (isOutOfMoves || reachedGoal)
             return;
 
         if (isMoving)
@@ -102,7 +97,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void StartDash(Vector3Int dashDirection)
     {
-        if (isOutOfMoves && reachedGoal)
+        if (isOutOfMoves || reachedGoal)
             return;
 
         if (isMoving)
@@ -193,6 +188,7 @@ public class PlayerMovement : MonoBehaviour
         {
             AmountOfMoves += PickUpValue;
             MovesText.text = AmountOfMoves.ToString();
+            Destroy(col.gameObject);
         }
     }
 }

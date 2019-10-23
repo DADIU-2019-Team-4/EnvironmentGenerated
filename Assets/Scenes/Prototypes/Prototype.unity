@@ -840,7 +840,7 @@ Transform:
   - {fileID: 1524975517}
   - {fileID: 345323310}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1374650079
 PrefabInstance:
@@ -1463,7 +1463,7 @@ RectTransform:
   - {fileID: 558198436}
   - {fileID: 2000131668}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1790,7 +1790,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1973723698
 GameObject:
@@ -2102,36 +2102,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2000131667}
   m_CullTransparentMesh: 0
---- !u!1 &2008074756
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2008074757}
-  m_Layer: 0
-  m_Name: Start Location
-  m_TagString: Untagged
-  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2008074757
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2008074756}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.5, y: 3.5, z: -41}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2010814509 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6976392021319098841, guid: 7e82626cf0fc5fc46a9a2ed8fe337169,
@@ -2225,6 +2195,41 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 3838648474628234737, guid: 5030fae7cb611484c99449ddf669dfcc,
+        type: 3}
+      propertyPath: MovesText
+      value: 
+      objectReference: {fileID: 1973723700}
+    - target: {fileID: 3838648474628234737, guid: 5030fae7cb611484c99449ddf669dfcc,
+        type: 3}
+      propertyPath: OutOfMovesText
+      value: 
+      objectReference: {fileID: 558198435}
+    - target: {fileID: 3838648474628234737, guid: 5030fae7cb611484c99449ddf669dfcc,
+        type: 3}
+      propertyPath: WinText
+      value: 
+      objectReference: {fileID: 2000131667}
+    - target: {fileID: 3838648474628234737, guid: 5030fae7cb611484c99449ddf669dfcc,
+        type: 3}
+      propertyPath: StartLocation
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3838648474628234737, guid: 5030fae7cb611484c99449ddf669dfcc,
+        type: 3}
+      propertyPath: RestartButton
+      value: 
+      objectReference: {fileID: 1661122178}
+    - target: {fileID: 3838648474628234737, guid: 5030fae7cb611484c99449ddf669dfcc,
+        type: 3}
+      propertyPath: DashDuration
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3838648474628234737, guid: 5030fae7cb611484c99449ddf669dfcc,
+        type: 3}
+      propertyPath: CoolDownValue
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 3838648474628234738, guid: 5030fae7cb611484c99449ddf669dfcc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2279,36 +2284,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3838648474628234737, guid: 5030fae7cb611484c99449ddf669dfcc,
-        type: 3}
-      propertyPath: MovesText
-      value: 
-      objectReference: {fileID: 1973723700}
-    - target: {fileID: 3838648474628234737, guid: 5030fae7cb611484c99449ddf669dfcc,
-        type: 3}
-      propertyPath: OutOfMovesText
-      value: 
-      objectReference: {fileID: 558198435}
-    - target: {fileID: 3838648474628234737, guid: 5030fae7cb611484c99449ddf669dfcc,
-        type: 3}
-      propertyPath: WinText
-      value: 
-      objectReference: {fileID: 2000131667}
-    - target: {fileID: 3838648474628234737, guid: 5030fae7cb611484c99449ddf669dfcc,
-        type: 3}
-      propertyPath: StartLocation
-      value: 
-      objectReference: {fileID: 2008074757}
-    - target: {fileID: 3838648474628234737, guid: 5030fae7cb611484c99449ddf669dfcc,
-        type: 3}
-      propertyPath: RestartButton
-      value: 
-      objectReference: {fileID: 1661122178}
-    - target: {fileID: 3838648474628234737, guid: 5030fae7cb611484c99449ddf669dfcc,
-        type: 3}
-      propertyPath: DashDuration
-      value: 0.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5030fae7cb611484c99449ddf669dfcc, type: 3}

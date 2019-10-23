@@ -46,14 +46,14 @@ public class InputController : MonoBehaviour
     {
         HandleInput();
 
-        if (swipeRegistered)
-        {
-            if (!hasSwiped && coyoteTimer < coyoteTime)
-            {
-                CheckSwipe();
-            }
-            // todo fix this
-        }
+        //if (swipeRegistered)
+        //{
+        //    if (!hasSwiped && coyoteTimer < coyoteTime)
+        //    {
+        //        CheckSwipe();
+        //    }
+        //    // todo fix this
+        //}
     }
 
 
