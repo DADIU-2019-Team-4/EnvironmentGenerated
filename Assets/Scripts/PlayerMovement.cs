@@ -1,18 +1,19 @@
 ﻿using System.Collections;
+using DG.Tweening;
 using TMPro;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public int DashMultiplier = 2500;
-    public int MoveMultiplier = 1000;
     public float CoolDownValue = 0.1f;
     public float ChargeThreshold = 0.25f;
     public float DashDuration = 0.1f;
     public float MoveDuration = 0.2f;
 
-    //public float moveSpeed = 3f;
-    //public float range = 2f;
+    public int MoveDistance = 1;
+    public int DashDistance = 2;
+
+    public Transform StartLocation;
 
     private Rigidbody rigidBody;
     private Material material;
@@ -39,7 +40,11 @@ public class PlayerMovement : MonoBehaviour
         trailRenderer.enabled = false;
         spawnPos = rigidBody.position;
 
-        transform.position = grid.GetCellCenterWorld(new Vector3Int(-1, 0, -4));
+        if (StartLocation == null)
+            StartLocation = transform;
+
+        Vector3Int cell = grid.WorldToCell(StartLocation.position);
+        transform.position = grid.GetCellCenterWorld(cell);
     }
 
     // Update is called once per frame
@@ -58,20 +63,32 @@ public class PlayerMovement : MonoBehaviour
         colorValue -= 0.05f;
     }
 
-    public void StartDash(Vector3 dashDirection)
+    public void StartMove(Vector3Int moveDirection)
+    {
+        if (isMoving)
+            return;
+
+        var startCell = grid.WorldToCell(transform.position);
+        var difference = moveDirection * MoveDistance;
+        var targetCell = startCell + difference;
+
+        StartCoroutine(MoveRoutine(targetCell, MoveDuration));
+    }
+
+    public void StartDash(Vector3Int dashDirection)
     {
         if (isMoving)
             return;
 
         trailRenderer.enabled = true;
-        isMoving = true;
 
-        rigidBody.velocity = Vector3.zero;
-        rigidBody.AddForce(dashDirection * DashMultiplier);
+        var startCell = grid.WorldToCell(transform.position);
+        var difference = dashDirection * DashDistance;
+        var targetCell = startCell + difference;
+    
+        StartCoroutine(MoveRoutine(targetCell, DashDuration));
 
         ResetDash();
-
-        StartCoroutine(StartCoolDown(DashDuration));
     }
 
     public void ResetDash()
@@ -81,66 +98,18 @@ public class PlayerMovement : MonoBehaviour
         IsDashCharged = false;
     }
 
-    public void StartMove(Vector3 moveDirection)
+    private IEnumerator MoveRoutine(Vector3Int target, float duration)
     {
-        if (isMoving)
-            return;
-
         isMoving = true;
 
-        rigidBody.velocity = Vector3.zero;
-        rigidBody.AddForce(moveDirection * MoveMultiplier);
-        StartCoroutine(StartCoolDown(MoveDuration));
-    }
+        var toPosition = grid.GetCellCenterWorld(target);
+        rigidBody.DOMove(toPosition, duration);
 
-    IEnumerator StartCoolDown(float duration)
-    {
-        yield return  new WaitForSeconds(duration);
-        rigidBody.velocity = Vector3.zero;
+        yield return new WaitForSeconds(duration);
+
         trailRenderer.enabled = false;
 
         yield return new WaitForSeconds(CoolDownValue);
         isMoving = false;
     }
-
-    //public void ContinuousMovement(Vector3 touchPosition)
-    //{
-    //    RaycastHit hit;
-    //    Ray ray = Camera.main.ScreenPointToRay(touchPosition);
-    //    if (Physics.Raycast(ray, out hit))
-    //    {
-    //        Vector3 targetPos = hit.point;
-    //        if (Vector3.Distance(targetPos, lastPosition) > range)
-    //        {
-    //            targetPos.y = transform.position.y;
-    //            transform.LookAt(targetPos);
-    //            transform.position = Vector3.MoveTowards(transform.position, targetPos, moveSpeed * Time.deltaTime);
-    //        }
-
-    //        if (lastPosition == transform.position)
-    //        {
-    //            Timer += Time.deltaTime;
-    //            if (Timer >= ChargeThreshold)
-    //            {
-    //                ChargeDash();
-    //                IsDashCharged = true;
-    //            }
-    //        }
-    //        else
-    //        {
-    //            if (!IsDashCharged)
-    //            {
-    //                ResetDash();
-    //                Timer = 0;
-    //            }
-    //            else
-    //            {
-    //                Vector3 dashDirection = (transform.position - lastPosition).normalized;
-    //                StartDash(dashDirection);
-    //            }
-    //        }
-
-    //        lastPosition = transform.position;
-    //    }
-    //}
 }

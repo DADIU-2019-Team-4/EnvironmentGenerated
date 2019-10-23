@@ -141,7 +141,7 @@ public class InputController : MonoBehaviour
             trackMouse = false;
             timer = 0;
             playerMovement.ResetDash();
-        }       
+        }
 
         if (trackMouse)
         {
@@ -188,18 +188,18 @@ public class InputController : MonoBehaviour
                     if (lastPosition.y > firstPosition.y)
                     {
                         if (playerMovement.IsDashCharged)
-                            playerMovement.StartDash(new Vector3(1, 0, 1));
+                            playerMovement.StartDash(new Vector3Int(1, 1, 0));
                         else
-                            playerMovement.StartMove(new Vector3(1, 0, 1));
+                            playerMovement.StartMove(new Vector3Int(1, 1,0));
 
                         hasSwiped = true;
                     }
                     else
                     {
                         if (playerMovement.IsDashCharged)
-                            playerMovement.StartDash(new Vector3(1, 0, -1));
+                            playerMovement.StartDash(new Vector3Int(1, -1, 0));
                         else
-                            playerMovement.StartMove(new Vector3(1, 0, -1));
+                            playerMovement.StartMove(new Vector3Int(1, -1, 0));
 
                         hasSwiped = true;
                     }
@@ -209,18 +209,18 @@ public class InputController : MonoBehaviour
                     if (lastPosition.y > firstPosition.y)
                     {
                         if (playerMovement.IsDashCharged)
-                            playerMovement.StartDash(new Vector3(-1, 0, 1));
+                            playerMovement.StartDash(new Vector3Int(-1, 1, 0));
                         else
-                            playerMovement.StartMove(new Vector3(-1, 0, 1));
+                            playerMovement.StartMove(new Vector3Int(-1, 1, 0));
 
                         hasSwiped = true;
                     }
                     else
                     {
                         if (playerMovement.IsDashCharged)
-                            playerMovement.StartDash(new Vector3(-1, 0, -1));
+                            playerMovement.StartDash(new Vector3Int(-1, -1, 0));
                         else
-                            playerMovement.StartMove(new Vector3(-1, 0, -1));
+                            playerMovement.StartMove(new Vector3Int(-1, -1, 0));
 
                         hasSwiped = true;
                     }
@@ -230,28 +230,26 @@ public class InputController : MonoBehaviour
         }
     }
 
-
-    private bool SwipedLongEnough(Vector3 direction)
+    private bool SwipedLongEnough(Vector3Int direction)
     {
         return (!(Math.Abs(direction.x) > horizontalSwipeDistance) &&
             !(Math.Abs(direction.y) > verticalSwipeDistance));
     }
 
-
-    private Vector3 HorizontalSwipe()
+    private Vector3Int HorizontalSwipe()
     {
         if (lastPosition.x > firstPosition.x)
-            return Vector3.right;
+            return Vector3Int.right;
 
-        return Vector3.left;
+        return Vector3Int.left;
     }
 
 
-    private Vector3 VerticalSwipe()
+    private Vector3Int VerticalSwipe()
     {
         if (lastPosition.y > firstPosition.y)
-            return Vector3.forward;
+            return Vector3Int.up;
 
-        return Vector3.back;
+        return Vector3Int.down;
     }
 }
