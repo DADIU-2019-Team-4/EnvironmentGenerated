@@ -11,7 +11,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Prototypes/Dash Diagonal.unity
     guid: df935f6681efa2649a4bc872639b0f57
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Prototypes/Dash Continuous.unity
     guid: 10c0ac1143bd7d641947bb517336a6af
+  - enabled: 1
+    path: Assets/Scenes/Prototypes/Prototype.unity
+    guid: 34da09851502d024387bb87a56755bd2
   m_configObjects: {}
